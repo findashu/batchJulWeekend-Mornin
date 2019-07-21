@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    
+    <h2>User Signup</h2>
+
+
+    <form action="/form" method="POST" enctype="multipart/form-data">
+
+        Name: <input type="text" name="name" placeholder="Name" >
+
+        <br>
+
+       Password*: <input type="password" name="password" required minlength="3" maxlength="10">
+        
+        <br>
+
+       Email : <input type="email" name="email" required>
+        <br>
+        
+        Mobile: <input type="number" name="mobile" >
+
+        <br>
+        DOB: <input type="date" name="dob" >
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
