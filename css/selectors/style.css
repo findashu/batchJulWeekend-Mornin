@@ -1,0 +1,46 @@
+/* Universal Selectors */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* typed selectors */
+
+h1 {
+    color:yellow;
+}
+
+h2 {
+    color: green;
+}
+
+
+p {
+    color:red;
+}
+
+/* class selectors */
+
+.mypara {
+    color:blue;
+}
+
+.para {
+    font-size: 20px;
+}
+
+
+/* ID Selectors */
+
+#spclPara {
+    color:burlywood;
+}
+
+h2 {
+    color: pink;
+}
+
+.head {
+    color:purple;
+}

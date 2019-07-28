@@ -1,0 +1,34 @@
+/* 
+
+Universal ==> 0
+
+typed selector ==> 10 
+
+class selector ==> 100
+
+
+ID selector ===> 500
+
+Inline CSS ===> 1000
+
+*/
+
+
+* {
+    color: red;
+}
+
+h1 {
+    color: orange;
+}
+
+
+
+#myHead {
+    color: green;
+}
+
+.head {
+    color: brown;
+}
+
