@@ -1,0 +1,9 @@
+.mydiv {
+    background-color:grey;
+}
+
+.secondDiv {
+    background-image: url('../../media/js.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom; /* bottom left*/
+}

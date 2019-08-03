@@ -1,0 +1,29 @@
+nav {
+    background-color:grey;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+
+span {
+    display: block;
+}
+
+
+h1 {
+    /* display: none; */
+    visibility: hidden;
+}
+
+
+/* list-item */
+/* inline-block */
+/* table-item */
