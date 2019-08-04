@@ -1,20 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
 nav {
     background-color:grey;
+    width: 100%;
 }
 
 li {
     display: inline;
     list-style: none;
+    padding: 20px 15px;
 }
 
 a {
     color:white;
     text-decoration: none;
+    text-align: center;
 }
 
 
 span {
     display: block;
+    margin: 20px;
 }
 
 

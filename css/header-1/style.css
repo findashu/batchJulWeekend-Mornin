@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    background-color: grey;
+    width: 100%;
+}
+
+ul.topnav {
+    display: block;
+    overflow: hidden;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+    padding: 15px 10px;
+}
+
+ul.topnav li a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+ul.topnav li.sidenav {
+    float: right;
+}
+
+ul.topnav li.sidemenu {
+    display: none;
+}

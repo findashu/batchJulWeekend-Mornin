@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 .first {
     background-color : red;
     height: 300px;
@@ -10,9 +15,9 @@
 .second {
     background-color : green;
     height: 300px;
-    width: 440px;
-    margin: 20px;
-    padding:20px;
+    width: 400px;
+    margin: 30px;
+    padding:10px 20px;
     border: 8px solid black;
 }
 
