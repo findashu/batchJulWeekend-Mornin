@@ -105,3 +105,22 @@ person.education[0].studyField = 'CS';
 
 console.log(person)
 
+var obj = {
+    name: 'js'
+};
+
+var obj2 = obj;
+
+obj2.name = 'javascript';
+
+console.log(obj === obj2)
+
+var p1 = {
+    name: 'ashu'
+}
+
+var p2 = {
+    name: 'ashu'
+}
+
+console.log(p1 === p2);

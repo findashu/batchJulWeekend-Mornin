@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    position property
+    1 .static (default)
+    2. fixed 
+    3. absolute
+    4. relative
+    5. inherit
+*/
+
+h1 {
+    background-color:grey;
+    padding:10px;
+    text-align: center;
+    color:white;
+}
+
+.boxes {
+    background-color: beige;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    /* position: absolute; */
+}
+
+.box {
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+    position: relative;
+    top:20px;
+    left: 40px;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+.box4 {
+    background-color: tomato;
+}
+
+.dummy {
+    height: 1000px;
+    background-color: #f9f9f5;
+}
