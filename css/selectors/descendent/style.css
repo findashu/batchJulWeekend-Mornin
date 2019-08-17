@@ -1,0 +1,17 @@
+/* All p tags inside outer class */
+/* .outer p {
+    color:red;
+} */
+
+
+/* Direct children of .outer */
+.outer > p {
+    color:red;
+}
+
+
+/* Chaining descendent selectors */
+
+.outer .inner p {
+    color:green
+}

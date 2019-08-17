@@ -1,0 +1,16 @@
+/* Hover */
+
+
+a:hover{
+    color:red;
+}
+
+/* visited active */
+
+a:active {
+    color:peru;
+}
+
+a:visited{
+    color: green;
+}
