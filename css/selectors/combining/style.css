@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    border: 1px dashed tomato;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+div.outer h2 {
+    color: teal;
+}
+
+section.outer h2 {
+    color: steelblue;
+}

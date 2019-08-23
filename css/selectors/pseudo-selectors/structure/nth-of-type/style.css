@@ -1,0 +1,8 @@
+.outer > p:nth-of-type(2) {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.outer > p:nth-of-type(odd) {
+    color: peru;
+}

@@ -1,6 +1,6 @@
 
 // function expression
-var add = function (a,b){
+var add = function foo(a,b){
     return a+b;
 }
 
@@ -11,7 +11,7 @@ add = 20;
 
 console.log(add);
 
-// Named Function Expresstion
+// Named Function Expression
 // sum(12,2);
 
 
@@ -37,6 +37,7 @@ function printFoo(cb,a) {
 printFoo(foo)
 
 // Passing a anonymous function (callback) to function
+
 printFoo(function() {
     console.log('I m anonymous')
 },10)

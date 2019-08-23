@@ -1,0 +1,7 @@
+.outer > p:first-of-type {
+    color: cadetblue;
+}
+
+.outer > p:last-of-type {
+    color: coral;
+}

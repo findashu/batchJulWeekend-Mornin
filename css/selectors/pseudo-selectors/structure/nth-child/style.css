@@ -1,0 +1,17 @@
+/* ul li:nth-child(3) {
+    color:red;
+} */
+
+
+/* even n odd */
+
+/* ul li:nth-child(even) {
+    color:red;
+} */
+
+
+/* n starts from 0 */
+
+ul li:nth-child(2n +1) {
+    color:red;
+}
