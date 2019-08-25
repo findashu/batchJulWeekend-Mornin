@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="topnav">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+            <li class="sidenav">
+                <a href="#signup">Signup</a>
+            </li>
+
+            <li class="sidenav">
+                <a href="#login">Login</a>
+            </li>
+
+            <li class="menu">
+                <a id="menu" href="#">&#9776;</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <script>
+    
+        let ele = document.querySelector('#menu');
+        let ul = document.querySelector('.topnav');
+
+        function handler(e) {
+            e.preventDefault();
+
+            if(ul.className == 'topnav') {
+                ul.className += ' responsive'
+            }else {
+                ul.className = 'topnav'
+            }
+        }
+
+        ele.addEventListener('click', handler);
+
+    </script>
+
+
+
+
+
+</body>
+</html>
