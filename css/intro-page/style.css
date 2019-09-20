@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.main img {
+    margin: 0px auto;
+    border-radius: 50%
+}
+
+.content h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    color: white;
+}
+
+.content p {
+    text-align: justify;
+    width: 50%;
+    margin: 0px auto;
+}
+
+

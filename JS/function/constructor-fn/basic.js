@@ -76,3 +76,9 @@ console.log(js.constructor.prototype.hasOwnProperty('toString'));
 // var str2 = new String('hello')
 
 // console.log(str.length);
+
+// Object
+
+console.log(Object.hasOwnProperty('toString'));
+
+console.log(Object.prototype.hasOwnProperty('toString'));
