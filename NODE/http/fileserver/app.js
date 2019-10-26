@@ -32,15 +32,10 @@ server.on('request', function (req,res) {
             }
         })   
     }else if (parsedUrl.pathname == '/contact' && req.method=='POST') {
-
         req.on('data', function(data) {
             console.log(data);
-
             let dt = Buffer.from(data).toString();
-
             console.log(dt);
-
-
         })
 
        req.on('end', function() {

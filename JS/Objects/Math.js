@@ -63,8 +63,5 @@ console.log(rn);
 
 
 console.log(Math.floor(10.6))
-
 console.log(Math.ceil(10.6));
-
-
 console.log(Math.round(10.4));

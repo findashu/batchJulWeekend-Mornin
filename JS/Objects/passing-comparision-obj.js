@@ -35,8 +35,3 @@ let person2 = {
 
 
 console.log(JSON.stringify(person1) == JSON.stringify(person2));
-
-
-
-
-
