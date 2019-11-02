@@ -36,7 +36,7 @@ server.on('request', function (req,res) {
             console.log(data);
             let dt = Buffer.from(data).toString();
             console.log(dt);
-        })
+        });
 
        req.on('end', function() {
             res.end('Form Submitted');
