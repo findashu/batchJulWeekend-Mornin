@@ -1,0 +1,36 @@
+<h1>Learning HBS (Handlebars)</h1>
+
+
+<p>{{name}}</p>
+
+{{{htmlContent}}}
+
+{{#if elegible}}
+<p>You are elegible</p>
+
+<p>You are not elegible</p>
+{{/if}}
+
+
+{{#if elegible}}
+<p>You are elegible</p>
+{{else}}
+<p>You are not elegible</p>
+{{/if}}
+
+
+<ul>
+    {{#each hobbies}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+
+<p>Hi I am {{description.name}}, I am {{description.age}} years old {{description.gender}}</p>
+
+<ul>
+    {{#each friends}}
+    <li>{{this.name}} {{this.gender}}</li>
+    {{/each}}
+</ul>
+
+<img src="/img/thruskills.png" alt="">
